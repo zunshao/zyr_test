@@ -1,0 +1,90 @@
+body{
+    font-family: "Microsoft YaHei";
+    font-size: 16px;
+}
+/* header */
+.header{
+    width: 100%;
+    height: 66px;
+    overflow: hidden;
+}
+.header .logo{
+    width: 260px;
+    line-height: 60px;
+    background: darkcyan;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+.header .tel{
+    width: fit-content;
+    height: inherit;
+    float: right;
+}
+.header .top span{
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 12px;
+    line-height: 26px;
+}
+.header .bottom{
+    margin-right: 12px;
+}
+
+/* nav */
+.nav{
+    height:60px;
+    width:100%;
+    background: url("../image/nav_bg.png") no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 1000;
+}
+.nav ul{
+    font-size: 0;
+}
+.nav li{
+    display: inline-block;
+    height:49px;
+    width:110px;
+    text-align: center;
+    margin-top:5px;
+    font-size: 14px;
+    border-radius: 1px;
+    cursor: pointer;
+}
+.nav li a{
+    color:#fff;
+    text-decoration: none;
+    line-height: 50px;
+}
+.nav-container ul{
+    width: fit-content;
+    margin: 0 auto;
+}
+.nav-container .active{
+    background: #FF9900;
+}
+.nav li:hover{
+    background: #FF9900;
+}
+
+/* banner */
+.banner{
+    height:400px;
+}
+.banner .swiper-wrapper{
+    height:400px;
+}
+.banner .slide1{
+    background: url("../image/banner1.png") no-repeat center;
+    background-size: cover;
+}
+.banner .slide2{
+    background: url("../image/banner2.png") no-repeat center;
+    background-size: cover;
+}
+.banner .slide3{
+    background: url("../image/banner3.jpg") no-repeat center;
+    background-size: cover;
+}
